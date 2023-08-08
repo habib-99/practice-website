@@ -17,6 +17,23 @@ body{
     padding: 15px 30px;
 }
 
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+.section-desc{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
 /* nav related style start */
 
 nav{
@@ -49,19 +66,28 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* nav related style end  */
+
+
 
 
 /* header related style start */
 .header{
     background-color: #FFF8F3;
+  
 }
 
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
    
+}
+
+.banner-content{
+    max-width: 500px;
 }
 
 
@@ -71,4 +97,35 @@ nav a {
     border-radius: 50%;
   
 }
+
+.banner-grating{
+    font-size: 25px;
+    margin-bottom: 0;
+
+}
+
+.banner-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.banner-desc{
+    margin-bottom: 40px;
+}
 /* header related style start */
+
+
+
+
+/* main section style start */
+
+/* about section style */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+
+/* main section style end */
