@@ -30,6 +30,8 @@ nav{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+
+    margin: 0 180px;
 }
 
 
@@ -48,3 +50,25 @@ nav a {
     color: #474747;
 }
 /* nav related style end  */
+
+
+/* header related style start */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.banner .profile-pic{
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+  
+}
+/* header related style start */
