@@ -1,4 +1,4 @@
-/* common shared style */
+/* common shared style start*/
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -31,6 +31,7 @@ body{
     font-size: 18px;
 }
 
+/* common shared style end*/
 
 
 
@@ -119,6 +120,16 @@ nav a {
 
 /* main section style start */
 
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main section
+{
+    margin-top: 130px;
+}
+
 /* about section style */
 
 .about{
@@ -127,5 +138,90 @@ nav a {
     background: #FFF8F3;
     margin: 130px 0px;
 }
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+
+
+/* what i do part css */
+
+ #what-i-do-desc{
+    padding: 30px 150px;
+
+    }
+
+    #img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .skills-container{
+        display: flex;
+        gap: 24px;
+    }
+
+    .skill{
+        padding: 30px;
+
+        border-radius: 5px;
+        background: #f5eeee;
+        box-sizing: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+      
+    }
+
+    .skill-desc{
+        color: #757575;
+    }
+
+
+    /* Resume section style start */
+    .resume-column-title{
+        color: #474747;
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+
+
+    .resume-container{
+        display: flex;
+        gap: 50px;
+    }
+
+
+    .resume-item-institute,.resume-item-description{
+
+        color: #474747;
+        
+    }
+    .resume-item-institute{
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    .resume-item-title{
+        color: #474747;
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .resume-container hr{
+        margin: 30px;
+    }
+
+    .download-cv{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+      /* Resume section style end */
 
 /* main section style end */
